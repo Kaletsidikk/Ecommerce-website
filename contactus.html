@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Shoe Store Name</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-ZenhVNpHmPwQGorRXWGEgNLECVhhmHGLCtZJoFqcnkQxwQjQzGYIRCEkATGWfEOBs" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Custom styles for the main container */
+    main.container.mt-5 {
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transition: all 0.4s ease-in-out;
+    }
+
+    main.container.mt-5:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    main.container.mt-5 h2 {
+      font-size: 38px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 25px;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    main.container.mt-5 h2::after {
+      content: '';
+      width: 50px;
+      height: 4px;
+      background-color: #ff6f61;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+    }
+
+    main.container.mt-5 p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+      margin-bottom: 20px;
+      transition: color 0.3s ease-in-out;
+    }
+
+    main.container.mt-5 p:hover {
+      color: #ff6f61;
+    }
+
+    /* Style for the contact form */
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .contact-form button {
+      background-color: #ff6f61;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 4px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .contact-form button:hover {
+      background-color: #333;
+    }
+
+    /* Contact icons */
+    .contact-info i {
+      font-size: 24px;
+      color: #ff6f61;
+      margin-right: 12px;
+    }
+
+    .contact-info p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Interactive map styling */
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="top-nav">
+    <div class="container d-flex">
+      <p>Order Online Or Call Us: ETH:+251 96-555-25-95</p>
+      <ul class="d-flex">
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navigation">
+    <div class="nav-center container d-flex">
+      <a href="index.html" class="logo"><img src="images/logo4.jpg" alt="Your Logo" style="width: 200px; height: 50px; vertical-align: middle;"></a> 
+
+      <ul class="nav-list d-flex">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="product.html" class="nav-link">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a href="terms.html" class="nav-link">Terms</a>
+        </li>
+        <li class="nav-item">
+          <a href="about us.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="contactus.html" class="nav-link">Contact</a>
+        </li>
+        <li class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="hamburger">
+        <i class="bx bx-menu-alt-left"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container mt-5">
+    <section class="row">
+      <div class="col-12">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or concerns, feel free to get in touch with us using the contact details below or by filling out the form.</p>
+      </div>
+    </section>
+
+    <section class="row mt-5 contact-info">
+      <div class="col-md-4">
+        <i class="fas fa-phone-alt"></i>
+        <p>Phone: +251 96-555-25-95</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-envelope"></i>
+        <p>Email: info@shoestore.com</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>Address: Bole, Addis Ababa, Ethiopia</p>
+      </div>
+    </section>
+
+    <section class="row mt-5">
+      <div class="col-md-6">
+        <h2>Send Us a Message</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h2>Find Us Here</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.659589567086!2d38.76447917596246!3d9.028090190514264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85c1673f8a79%3A0xf0b40dd9e1b5f6f7!2sBole%20Medhanealem%2C%20Addis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sus!4v1608886545643!5m2!1sen!2sus" 
+          frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="row">
+      <div class="col d-flex">
+        <h4>INFORMATION</h4>
+        <a href="about us.html">About us</a>
+        <a href="">Contact Us</a>
+        <a href="">Term & Conditions</a>
+        <a href="">Shipping Guide</a>
+      </div>
+      <div class="col d-flex">
+        <h4>USEFUL LINKS</h4>
+        <a href="">Online Store</a>
+        <a href="">Customer Services</a>
+        <a href="">Promotion</a>
+        <a href="">Top Brands</a>
+      </div>
+      <div class="col d-flex">
+        <span><i class="bx bxl-facebook-square"></i></span>
+        <span><i class="bx bxl-instagram-alt"></i></span>
+        <span><i
